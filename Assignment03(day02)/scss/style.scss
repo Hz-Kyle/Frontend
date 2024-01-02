@@ -1,0 +1,47 @@
+// $primary-color: #3498db;
+// $background-color: #f4f4f4;
+
+.l-header {
+    width: 100%;
+
+
+    & .l-header-logo {
+        text-align: center;
+        color: #ffffff;
+        background-color: #000;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+        & .l-header-nav {
+            display: flex;
+            justify-content: center;
+        }
+
+            & .l-header-nav__list{
+                display: flex;
+                background-color: #cd6969;
+                width: 100%;
+                justify-content: space-between;
+                
+                
+            }
+   
+}
+
+//   &__list {
+//     list-style: none;
+//     margin: 0;
+//     padding: 0;
+
+//     &__item {
+//       display: inline-block;
+//       margin-right: 20px;
+
+//       &__link {
+//         text-decoration: none;
+//         color: #fff;
+
+//         }
+//       }
+//     }
+//   }
